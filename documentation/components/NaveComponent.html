@@ -1,0 +1,634 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>inventario-naves documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">inventario-naves documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Components</li>
+  <li class="breadcrumb-item"
+  >
+  NaveComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" class="nav-link"
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li class="nav-item">
+            <a href="#templateData" class="nav-link"
+                role="tab" id="templateData-tab" data-bs-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li class="nav-item">
+            <a href="#styleData" class="nav-link"
+                role="tab" id="styleData-tab" data-bs-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tree" class="nav-link"
+                role="tab" id="tree-tab" data-bs-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/nave/nave.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code>OnInit</code>
+    </p>
+
+
+<section data-compodoc="block-metadata">
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-nave</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./nave.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./nave.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#naves" >naves</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getLista" >getLista</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getNaves" >getNaves</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(naveService: <a href="../injectables/NaveService.html" target="_self">NaveService</a>, pilotoService: <a href="../injectables/PilotoService.html" target="_self">PilotoService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/nave/nave.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>naveService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NaveService.html" target="_self" >NaveService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>pilotoService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PilotoService.html" target="_self" >PilotoService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLista"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getLista</b></span>
+                        <a href="#getLista"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getLista()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="18"
+                            class="link-to-prism">src/app/nave/nave.component.ts:18</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Nave.html" target="_self" >Array&lt;Nave&gt;</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNaves"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getNaves</b></span>
+                        <a href="#getNaves"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getNaves()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="22"
+                            class="link-to-prism">src/app/nave/nave.component.ts:22</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/app/nave/nave.component.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section data-compodoc="block-properties">
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="naves"></a>
+                    <span class="name">
+                        <span ><b>naves</b></span>
+                        <a href="#naves"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/Nave.html" target="_self" >Array&lt;Nave&gt;</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/nave/nave.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Nave } from &#x27;./nave&#x27;;
+import { NaveService } from &#x27;./nave.service&#x27;;
+import { Piloto } from &#x27;../piloto/piloto&#x27;;
+import { PilotoService } from &#x27;../piloto/piloto.service&#x27;;
+
+@Component({
+  selector: &#x27;app-nave&#x27;,
+  templateUrl: &#x27;./nave.component.html&#x27;,
+  styleUrls: [&#x27;./nave.component.scss&#x27;]
+})
+export class NaveComponent implements OnInit {
+
+  constructor(private naveService: NaveService, private pilotoService: PilotoService) { }
+
+  naves: Array&lt;Nave&gt; &#x3D; [];
+
+  public getLista(){
+    return this.naves
+  }
+
+  public getNaves() {
+    this.naveService.getNaves().subscribe(
+      response &#x3D;&gt; {
+        for (let i &#x3D; 0; i &lt; response.results.length; i++) {
+          let nave &#x3D; response.results[i]
+          let pilotos &#x3D; nave.pilots
+          let pilotos_lista: Piloto[] &#x3D; []
+          for (let j &#x3D; 0; j &lt; pilotos.length; j++) {
+            let piloto: string &#x3D; pilotos[j]
+            let piloto_id &#x3D; parseInt(piloto.split(&#x27;/&#x27;)[5])
+            this.pilotoService.getPiloto(piloto_id).subscribe(
+              dataa &#x3D;&gt; {
+                pilotos_lista.push(new Piloto(piloto_id, dataa.name, parseFloat(dataa.height), parseFloat(dataa.mass), dataa.gender))
+              }
+            )
+          }
+          let nave_object &#x3D; new Nave(i, nave.name, nave.model, parseFloat(nave.cost_in_credits), parseFloat(nave.max_atmosphering_speed), parseFloat(nave.cargo_capacity), parseInt(nave.passengers), pilotos_lista)
+          this.naves.push(nave_object);
+        }
+      }
+    );
+  }
+
+  ngOnInit() {
+    this.getNaves();
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;table-container slide-top&quot;&gt;
+  &lt;div class&#x3D;&quot;table-responsive&quot;&gt;
+      &lt;table class&#x3D;&quot;table&quot;&gt;
+
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Nombre&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Modelo&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Costo&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Velocidad&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Capacidad de carga&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Capacidad de pasajeros&lt;/th&gt;
+            &lt;th scope&#x3D;&quot;col&quot;&gt;Pilotos&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+
+        &lt;tbody&gt;
+          &lt;tr *ngFor&#x3D;&quot;let nave of naves&quot;&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.nombre}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.modelo}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.costo}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.velocidad}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.capacidadCarga}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;dd&gt;{{nave.capacidadPasajeros}}&lt;/dd&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+              &lt;div *ngFor&#x3D;&quot;let piloto of nave.pilotos&quot;&gt;
+                &lt;a href&#x3D;&quot;/piloto/{{piloto.id}}&quot;&gt;&lt;p&gt;{{piloto.nombre}}&lt;/p&gt;&lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+
+      &lt;/table&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="styleData">
+                <p class="comment">
+                    <code>./nave.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import url(../_table-container.scss);
+
+.table-responsive{
+  padding: 20px;
+}
+
+.slide-top{animation:slide-top 0.6s linear both}@keyframes slide-top{0%{transform:translateY(-10px); opacity: 0;}100%{transform:translateY(0); opacity: 100%;}}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="table-container slide-top">  <div class="table-responsive">      <table class="table">        <thead>          <tr>            <th scope="col">Nombre</th>            <th scope="col">Modelo</th>            <th scope="col">Costo</th>            <th scope="col">Velocidad</th>            <th scope="col">Capacidad de carga</th>            <th scope="col">Capacidad de pasajeros</th>            <th scope="col">Pilotos</th>          </tr>        </thead>        <tbody>          <tr *ngFor="let nave of naves">            <td>              <dd>{{nave.nombre}}</dd>            </td>            <td>              <dd>{{nave.modelo}}</dd>            </td>            <td>              <dd>{{nave.costo}}</dd>            </td>            <td>              <dd>{{nave.velocidad}}</dd>            </td>            <td>              <dd>{{nave.capacidadCarga}}</dd>            </td>            <td>              <dd>{{nave.capacidadPasajeros}}</dd>            </td>            <td>              <div *ngFor="let piloto of nave.pilotos">                <a href="/piloto/{{piloto.id}}"><p>{{piloto.nombre}}</p></a>              </div>            </td>          </tr>        </tbody>      </table>    </div>  </div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'NaveComponent', 'selector': 'app-nave'},{'name': 'PilotoComponent', 'selector': 'app-piloto'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'NaveComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'NaveComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

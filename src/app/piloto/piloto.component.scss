@@ -1,0 +1,14 @@
+@import url(../_table-container.scss);
+@import url(../_slide-top.scss);
+
+h1{
+  font-weight: bold;
+  margin: 20px 0 0 35px;
+}
+
+.nombre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 10px 0;
+}

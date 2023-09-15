@@ -1,0 +1,47 @@
+<div class="piloto-container">
+  <div class="nombre">
+    <h1>
+      {{ piloto.nombre }}
+    </h1>
+  </div>
+
+  <div class="text-center image slide-top">
+    <img
+      src="https://i.pinimg.com/originals/5d/bf/3f/5dbf3ff9a5bcebdbf8e2eff7d6f1ebd7.jpg"
+      class="rounded w-25"
+      alt="imagen"
+    >
+  </div>
+
+  <div class="table-container">
+
+    <div class="table-responsive">
+        <table class="table">
+
+          <thead>
+            <tr>
+              <th scope="col">Altura</th>
+              <th scope="col">Peso</th>
+              <th scope="col">Sexo</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <dd>{{piloto.altura}}</dd>
+              </td>
+              <td>
+                <dd>{{piloto.peso}}</dd>
+              </td>
+              <td>
+                <dd>{{piloto.sexo}}</dd>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+
+    </div>
+  </div>
+</div>

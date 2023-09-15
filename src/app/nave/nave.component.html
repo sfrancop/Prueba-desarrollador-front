@@ -1,0 +1,49 @@
+<div class="table-container slide-top">
+
+  <div class="table-responsive">
+    <table class="table">
+
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Modelo</th>
+          <th scope="col">Costo</th>
+          <th scope="col">Velocidad</th>
+          <th scope="col">Capacidad de carga</th>
+          <th scope="col">Capacidad de pasajeros</th>
+          <th scope="col">Pilotos</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let nave of naves">
+          <td>
+            <dd>{{nave.nombre}}</dd>
+          </td>
+          <td>
+            <dd>{{nave.modelo}}</dd>
+          </td>
+          <td>
+            <dd>{{nave.costo}}</dd>
+          </td>
+          <td>
+            <dd>{{nave.velocidad}}</dd>
+          </td>
+          <td>
+            <dd>{{nave.capacidadCarga}}</dd>
+          </td>
+          <td>
+            <dd>{{nave.capacidadPasajeros}}</dd>
+          </td>
+          <td>
+            <div *ngFor="let piloto of nave.pilotos">
+              <a href="/piloto/{{piloto.id}}"><p>{{piloto.nombre}}</p></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+
+</div>
