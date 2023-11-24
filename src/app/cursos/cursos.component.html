@@ -1,0 +1,56 @@
+<div>
+
+  <table class="table">
+
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Plataforma</th>
+        <th scope="col">Lanzamiento</th>
+        <th scope="col">Duracion (h)</th>
+
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let curso of cursos">
+        <td>
+          <dd>{{curso.id}}</dd>
+        </td>
+        <td>
+          <dd>{{curso.title}}</dd>
+        </td>
+        <td>
+          <dd>{{curso.platform}}</dd>
+        </td>
+        <td>
+          <dd>{{curso.launch_year}}</dd>
+        </td>
+        <td>
+          <dd>{{curso.duration_hours}}</dd>
+      </tr>
+    </tbody>
+
+  </table>
+
+  Los cursos que ofrecen certificados son:
+
+  <table class="table">
+
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let curso of cursosConCertificado">
+        <td>
+          <dd>{{curso}}</dd>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NaveModule } from './nave/nave.module';
 import { PilotoModule } from './piloto/piloto.module';
+import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PilotoModule } from './piloto/piloto.module';
     AppRoutingModule,
     NaveModule,
     PilotoModule,
-    HttpClientModule
+    HttpClientModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
